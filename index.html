@@ -16,7 +16,7 @@
                 <img src="./imagens/eu.jpg" alt="Imagem" width="300px" />
               </div>
             <h2>E este é meu portfólio...</h2>
-              <a href="#sobre"><button class='botao'>Saiba mais sobre mim!</button></a>
+              <a href="#mensagem"><button class='botao'>Me mande uma mensagem!</button></a>
           </div>
           
         </div>
@@ -26,35 +26,91 @@
         <div>
             <h2>Sobre <i class="fa-solid fa-magnifying-glass"></i></h2>
             <p>
-                Tenho 22 anos, sou estudante do curso de <strong>Ciência da Computação</strong> na <strong>UERJ(Universidade do Estado do Rio de Janeiro)</strong> e estagiária de TI na área de <strong>Segurança da Informação</strong>. Estou me estruturando para me tornar uma desenvolvedora <strong>FullStack</strong> (com conhecimento em Front-End, Back-End e DevOps). <p>Sempre gostei da área de TI/Tecnologia porque meu pai, que é técnico de informática, me apresentou esse mundo e mostrou as possibilidades de carreira.</p>
-              </p>
-              <br>
-                <h4>Minhas Características:</h4>
-                <p>Sou mais racional que espontânea, por isso, sou calada e observadora. Entretanto, não sou tímida, mantenho conversas de forma natural e gosto de saber mais sobre as pessoas. Demonstro meus interesses e opiniões quando acho necessário. No profissional, me considero eficiente e eficaz porém me perco no foco em excesso pois gosto de terminar tudo que começo.
-                </p>
+              Tenho 22 anos, sou estudante do curso de <strong>Ciência da Computação</strong> na <strong>UERJ(Universidade do Estado do Rio de Janeiro)</strong> e estagiária de TI na área de <strong>Segurança da Informação</strong>. Estou me estruturando para me tornar uma desenvolvedora <strong>FullStack</strong> (com conhecimento em Front-End, Back-End e DevOps). <p>Sempre gostei da área de TI/Tecnologia porque meu pai, que é técnico de informática, me apresentou esse mundo e mostrou as possibilidades de carreira.</p>
+            </p>
+            
+            <br>
+            <h4>Minhas Características:</h4>
+            <p>Sou mais racional que espontânea, por isso, sou calada e observadora. Entretanto, não sou tímida, mantenho conversas de forma natural e gosto de saber mais sobre as pessoas. Demonstro meus interesses e opiniões quando acho necessário. No profissional, me considero eficiente e eficaz porém me perco no foco em excesso pois gosto de terminar tudo que começo.
+            </p>
+        </div>
+        <div id="listas">
+          <h4>Top 4 plataformas onde gosto de estudar:</h4>
+            <ol type="1">
+              <li>YouTube</li>
+              <li>Aulas</li>
+              <li>Documentação</li>
+              <li>Livros</li>
+            </ol>
+
+            <h4>Coisas que gostaria de aprender:</h4>
+            <ul>
+              <li>Desenvolvimento Web</li>
+              <li>Desenvolvimento Mobile</li>
+              <li>E-commerce</li>
+              <li>Gestão de empresas</li>
+            </ul>
         </div>
         <br>
-        <div>
+        <div id="conhecimento">
             <h4>Níveis de conhecimento:</h4>
             <img src="./imagens/grafico.png" alt="grafico" width="500px">
         </div>
         <br>
-        <div>
+        <div id="expectativa">
             <h4>Expectativas sobre o curso:</h4>
             <p>Credito que, ao decorredor do curso de Front-End com a Ada, meus conhecimentos irão estar mais concretos, completos e prontos para serem posto em prática no mercado de trabalho, e que me tornarei mais segura para fazer projetos na área. Além de ter mais contato com estudantes que tem o mesmo objetivo e que se ajudam.</p>
         </div>
       </section> 
+      <br>
+      <section>
+        <div id="mensagem">
+
+          <h3>Quer me mandar uma mensagem? Preencha aqui:</h3>
+
+          <form action="">
+          <label for="User">Nome:</label> 
+          <input type="text" id="User" name="Name" placeholder="Digite o seu nome e sobrenome..."/> <br>
+          <br>
+          <label for="Email">E-mail:</label> 
+          <input type="email" id="Email" name="Email" placeholder="Digite o seu e-mail..."/> <br>
+          <br>
+          <label for="Telefone">Telefone:</label>
+          <input type="text" id="Telefone"  placeholder="(99) 9999-9999" />
+          <br>
+          <br>
+          <label for="estilo">Qual o estilo de mensagem?</label>
+          <br> 
+          <label for="opcao1">Pessoal</label> 
+          <input type="radio" name="opcao1" id="opcao1" value="Opcao1"><br />
+          <label for="opcao2">Profissional</label> 
+          <input type="radio" name="opcao1" id="opcao2" value="Opcao2"/>
+          <br>
+          <br>
+          <label for="mensagem">Mensagem:</label>
+          <input type="text" id="mensagem"  placeholder="Escreva sua mensagem..." />
+          <br>
+          <br>
+          <button type="reset">Limpar</button>
+          <button type="submit">Enviar</button>
+  
+        </form>
+      </div>
+      </section>
+      
 </body>
 
 <footer>
     <br>
-    <h3>Para mais informações, acesse minhas redes sociais:</h3>
+    <div id="redes">
+      <h3>Para mais informações, acesse minhas redes sociais:</h3>
 
     <ul> <a href="https://www.linkedin.com/in/mariamenechini/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
         <br>
         <br>
         <a href="https://github.com/marizao" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
     </ul>
+    </div>
    
 </footer>
 </html>
